@@ -1,0 +1,29 @@
+{
+  "name": "resolve-node-version",
+  "version": "0.0.1",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "description": "Like node-version-resolver, but without the coffee and installable from npm",
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "http://github.com/imlucas/resolve-node-version",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/resolve-node-version.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^1.0.4",
+    "request": "^2.39.0",
+    "semver": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3"
+  },
+  "keywords": [
+    "node",
+    "node-version-resolver",
+    "versions",
+    "semver"
+  ]
+}
